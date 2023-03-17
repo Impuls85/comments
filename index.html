@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Комментарии</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+      <div class="contact-form">
+        <h3 class="title">Комментарии</h3>
+      <form action="" method="POST" class="form" id="form-massege"></form>
+        <div class="form-massege">
+          <div class="input-group">
+            <div class="user-name">
+              <input
+                type="text"
+                class="input"
+                placeholder="Введите имя*"
+                name="name"
+              />
+              <label id="name-error" class="invalid"></label>
+            </div>
+
+            <input class="calendar" type="date" calendar="calendar" />
+          </div>
+          <textarea
+            class="input message"
+            cols="30"
+            rows="10"
+            placeholder="Сообщение"
+          ></textarea>
+          <button class="button">Отправить</button>
+          <span class="info">* Обязательные поля</span>
+        </div>
+      </form>
+      </div>
+      <!-- /.contact-form -->
+
+  </body>
+</html>

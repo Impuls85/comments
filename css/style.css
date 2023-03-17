@@ -1,0 +1,78 @@
+.contact-form {
+  width: 700px;
+  background-color: #bdbdbd;
+  border: 1px solid red;
+  margin: auto;
+  padding: 30px;
+}
+.comment {
+  width: 700px;
+  background-color: #bdbdbd;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 15px;
+  padding: 30px;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0 0 16px 0;
+}
+.form-massege {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+.input {
+  width: 30%;
+}
+
+.message {
+  flex-basis: 100%;
+  margin-bottom: 23px;
+}
+.info {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4b4949;
+}
+.dislike {
+  background-image: url("../img/dislike.png");
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.like {
+  background-image: url("../img/like.png");
+}
+.context {
+  display: flex;
+  justify-content: space-between;
+}
+.del-img {
+  width: 30px;
+  cursor: pointer;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.calendar {
+  height: 15px;
+}
+label {
+  font-size: 12px;
+  color: red;
+}
